@@ -408,9 +408,10 @@
 		data.startWindow = 0;
 		data.endWindow = 0;
 	}
-	
-	if (!GlideStringUtil.nil(data.category_id)) {
-		data.items = getSubcategories(data.category_id, catalogsInPortal).subcategories;
+
+	if (!GlideStringUtil.nil(categoryId)) {
+		var catGr = getSubcategories(categoryId);
+		data.items = catGr.subcategories;
 	}	else {
 		var catGr = getCategories(catalogsInPortal, data.startWindow, data.endWindow);
 		fetchCategories(catGr, data.items);
@@ -434,7 +435,7 @@
 
 	data.all_catalog_msg = (($sp.getCatalogs().value + "").split(",")).length > 1 ? gs.getMessage("All Catalogs") : "";
 
-	function getSubcategories(categoryId, catalogsInPortal) {
+	function getSubcategories(categoryId) {
 		
 			var categoryJS = new sn_sc.CatCategory(categoryId);
 			var categoryDetails = {};
@@ -449,7 +450,6 @@
 					categoryDetails.subcategories.push(category);
 				});
 			}
-
 		return categoryDetails;
 	}
 	    
