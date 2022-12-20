@@ -2,7 +2,7 @@
 Custom ServiceNow Service Portal widgets
 
 ## [SC Category Page v1](/cccd464b2fb311545dcb59ab2799b6b1/update/sp_widget_ad8178f52fce59105dcb59ab2799b6c6.xml)
-Lists all subcategories under the selected category (as specified in the `sys_id` parameter in the URL) 
+Lists all subcategories under the selected category (as specified in the `sys_id` parameter in the URL). In the image example below, parent category is '*Hardware*'. 
 
 URL format: `https://[INSTANCE].service-now.com/sp/?id=[PAGE_ID]&sys_id=[PARENT_CATEGORY_ID]`
 
