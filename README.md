@@ -1,2 +1,2 @@
-# servicenow-serviceportal-widgets
+# ServiceNow Service Portal Widgets
 Custom ServiceNow Service Portal widgets
