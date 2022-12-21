@@ -18,3 +18,7 @@ If the Portal has no specific Catalogs associated to it, then it will show all p
 
 
 ***Note**: The widget could still use some improvements including those noted in the* `// To do` *comments*
+
+## Other Resources
+
+* [Service Portal: Widget Library](https://github.com/platform-experience/serviceportal-widget-library) - A collection of Service Portal custom widgets and a component of the Innovation Library.
