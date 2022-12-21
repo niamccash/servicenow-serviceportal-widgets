@@ -12,4 +12,9 @@ If a Category is not specified in the URL, then the widget will attempt to get a
 
 If the Portal has no specific Catalogs associated to it, then it will show all parent categories from all catalogs.
 
+**Available options**
+
+![SC Category Page v1 widget configuratble options](https://user-images.githubusercontent.com/39105458/208799911-74eee707-644c-4921-be42-72320a9e7d8f.png)
+
+
 ***Note**: The widget could still use some improvements including those noted in the* `// To do` *comments*
