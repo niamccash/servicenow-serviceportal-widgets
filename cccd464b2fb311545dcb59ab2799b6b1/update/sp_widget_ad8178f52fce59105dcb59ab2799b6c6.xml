@@ -331,6 +331,7 @@
 	
 	data.error = '';
 	data.catalog_id = $sp.getParameter("catalog_id") ? $sp.getParameter("catalog_id") + "" : "-1";
+	
 	var catalogsInPortal = ($sp.getCatalogs().value + "").split(",");
 	var isCatalogAccessibleViaPortal = data.catalog_id == -1 ? true : false;
 	catalogsInPortal.forEach(function(catalogSysId) {
@@ -383,10 +384,8 @@
 		data.category = {title: categoryJS.getTitle(),
 									 description: categoryJS.getDescription()};
 	} else {
-		// To do: What title and desc do we use for showing all categories in all catalogs
-		// associated with a portal? 
-		data.category = {title: "",
-									 description: ""};
+		data.category = {title: "Categories",
+									 description: "Service Catalog Categories"};
 	}
 	
 	var catalog = $sp.getCatalogs().value;
