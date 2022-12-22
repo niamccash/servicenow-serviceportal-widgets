@@ -17,7 +17,7 @@ If the Portal has no specific Catalogs associated to it, then it will show all p
 ![SC Category Page v1 widget configuratble options](https://user-images.githubusercontent.com/39105458/208799911-74eee707-644c-4921-be42-72320a9e7d8f.png)
 
 
-***Note**: The widget could still use some improvements including those noted in the* `// To do` *comments*
+
 
 ## Other Resources
 
